@@ -1,7 +1,10 @@
 export interface Cliente {
   name: string;
   email: string;
+  phone: string;
+  cpf: string;
   password: string;
+  user: string;
 }
 
 export interface Login {
